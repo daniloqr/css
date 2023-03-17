@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box; /* força o navegador a alinhar tudo dentro da box */
+    margin: 0; 
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3640 ;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline; /* coloca os itens alinhados um ao lado do outro */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a {
+color: #f5f6fa;
+text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex; /* alinha uma div ao lado da outra */
+    flex-wrap: wrap ; /* A propriedade especifica se os itens flexíveis devem ser encapsulados ou não. */
+    justify-content: space-between;
+}
+
+
+
+.article article img {
+    width: 100%; /* define a largura máxima dos elementos */
+}
+
+.article article {
+    width: 30% ; /* define a lartuga máxima */
+}
+
+section {
+    padding: 16px 0; /* espaçamento interno de um elemento */
+}
+
+section h2,
+.article article {
+    margin-bottom: 16px; /* distancia entre 2 elementos */
+}
+
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+}
+
+.article article p, .article article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba( 0, 255, 0, 0.1);
+}
+
+#sports .article article a {
+    background-color: #009432;
+    
+    
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .article article a {
+    background-color: #ff9f1a;
+    
+    
+}
+#entreterimento {
+    background-color: #63abe6;
+}
+
+#entreterimento .article article a {
+    background-color: #1e40da;
+    
+    
+}
+#tecnologia {
+    background-color: #e62222;
+}
+
+#tecnologia .article article a {
+    background-color: #694007;
+    
+    
+}
