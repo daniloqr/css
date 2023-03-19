@@ -29,7 +29,7 @@ text-decoration: none;
 }
 
 .container {
-    width: 1366px;
+    
     margin: 0 auto;
 }
 
@@ -43,6 +43,7 @@ text-decoration: none;
 
 .article article img {
     width: 100%; /* define a largura máxima dos elementos */
+    height: 50%;
 }
 
 .article article {
